@@ -1,0 +1,62 @@
+.appContainer {
+  max-width: 840px;
+  background-color: #b4b4b4;
+  margin: auto;
+  height: 100vh;
+  padding: 2rem 0;
+}
+.componentsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 4rem;
+  background-color: #707070;
+  width: 100%;
+}
+
+.linkClass {
+  text-decoration: none;
+  font-size: larger;
+  color: #ffffff;
+}
+.formContent {
+  background-color: rgb(90, 90, 90);
+  color: #ffffff;
+  width: 400px;
+  padding: 2rem;
+  border-radius: 10px;
+}
+.formLabelInput {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.formLabelInput label {
+  font-weight: 600;
+  font-size: larger;
+}
+.formLabelInput input {
+  padding: 1rem;
+  border-radius: 10px;
+}
+.formButton {
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  width: 100%;
+  font-size: large;
+  font-weight: 600;
+}
+.formButton:hover {
+  background-color: #b4b4b4;
+  color: #ffffff;
+}
